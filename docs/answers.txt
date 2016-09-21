@@ -1,0 +1,25 @@
+(A) There have been 9 total commits by the end of step 8.
+
+(B) The .gitignore file was last modified on 2016-09-15 10:29:34.
+
+(C) In the src/edu/fsu/cs/cen5035 folder following items were modified:
+        BasicWeapon.java: 1
+        RoleGame.java: 1
+        Sword.java: 2
+        Weapon.java: 1
+        WeaponFactory.java: 1
+
+(D) The difference between `git log` and `git status` is that `git log` gives
+    the history of all commits made to the repository, while the `git status`
+    command  displays information about the current state of the repository,
+    edited files that have not been commited and untracked and unignored fiels.
+
+(E) The command to see the commits wheere `RoleGame.java` was one of the commited
+    files would be `git log src/edu/fsu/cs/cen5035/RoleGame.java`.
+
+(F) The command to see commits whose commit message contains the word `file`
+    is `git log --grep=file`
+
+(G) The command to see all commits made by `Alice` between 09/01/2016
+    and 09/16/2016 is
+    `git log --after="2016-01-09" --before="2016-16-09" --author="Alice"`
